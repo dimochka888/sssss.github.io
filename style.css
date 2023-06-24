@@ -1,0 +1,100 @@
+
+*{
+    color: #dedede;
+}
+
+header{
+    background-color: #343434;
+    height: 80px;
+}
+
+body{
+    margin: 0; 
+    padding: 0;
+    background-color: #252525;
+
+}
+
+header a{
+    text-decoration:none;
+    margin-right: 96px;
+}
+
+.header_nav{
+    font-size: 17px;
+    height: 50px;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+.logo{
+    background-color: #343434;
+    height: 56px;
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    padding:0 40px;
+}
+.privetctvie{
+    font-size: 50px;
+    padding:0 20%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+main{
+    margin: 0; 
+    padding: 76px 0 0 0;
+}
+.palka{
+    background-image: url(images/Rectangle.png);
+    background-size: 100%;
+    background-position:center 11px;
+    background-repeat: no-repeat;
+}
+.nadpis{
+    font-size: 23px;
+    padding:30px 300px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.nadpis2{
+    display: flex;
+    top: 790px;
+    right: 180px;
+    position: absolute;
+    justify-content: space-around;
+    
+}
+.razmer1{
+    font-size: 19px;
+}
+.pustota{
+    height: 200px;
+}
+.citati{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.razmer2{
+    font-size: 60px;
+    position: absolute;
+    right: 870px;
+    top: 1320px;
+}
+.razmer3{
+    position: absolute;
+    padding: 0 20%;
+    flex-direction: column;
+    text-align: center;
+    font-size: 26px;
+    margin: 100px;
+
+}
